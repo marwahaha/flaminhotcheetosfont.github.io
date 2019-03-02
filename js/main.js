@@ -57,10 +57,10 @@ function drawLetters(txt) {
     } else {
       if (character in alphabet) {
         var img =  document.createElement('img');
-        img.src = 'img/' + alphabet[character] + '.svg';
+        img.src = 'img/sm/' + alphabet[character] + '.svg';
       } else {
         var img =  document.createElement('img');
-        img.src = 'img/' + character.toUpperCase() + '.svg';
+        img.src = 'img/sm/' + character.toUpperCase() + '.svg';
       }
       img.className += "cheeto-letter";
 
